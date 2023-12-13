@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Hồ sơ cá nhân</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Hồ sơ cá nhân</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Trang chủ</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#services">Dự án</a>
+            <a href="#hoso">Hồ sơ</a>
+            <a href="#lienhe">Liên hệ</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home"> <!--thêm id để khi click menu sẽ chuyển đến section -->
+        <div class="home-content">
+            <h3>Xin chào, tôi là</h3>
+            <h1>Phạm Hồng Hiệp</h1>
+            <h3>Và tôi là <span> Fontend Developer</span></h3>
+            <p>Tôi là sinh viên Công nghệ thông tin Khóa 66 Trường Đại học Mỏ - Địa chất. Tôi thích lập trình và chụp ảnh.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/hiep.phamhong.562" ><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.youtube.com/channel/UCqhdk_GKjxcJL8cfg3m7JyQ" target="_blank"><i class='bx bxl-youtube' ></i></a>
+                <a href="https://www.instagram.com/epchannelll" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/Epchannel/" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="#" class="btn">Tải xuống CV</a>
+        </div>
+        <div class="home-image">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Giới thiệu <span>về tôi</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Tôi thích lập trình và chụp ảnh. Tôi có kinh nghiệm trong lập trình web Fontend như HTML, CSS. Chụp ảnh bằng máy ảnh DSLR và sử dụng các ứng dụng Adobe như Photoshop, Lightroom, Illustrator, Premiere và After Effect.</p>
+            <a href="#" class="btn">Xem thêm</a>
+        </div>
+    </section>
+
+<!-- Section Dịch vụ -->
+    <section class="services" id="services">
+        <h2 class="heading">Kỹ năng <span>bản thân</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Có kinh nghiệm trong việc lập trình web Fontend như HTML, CSS. Lập trình Mobile App như Flutter. Sử dụng Python để viết các tool hỗ trợ học tập và công việc.</p>
+                <a href="#" class="btn">Xem thêm</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h3>Graphic Designer</h3>
+                <p>Có kỹ năng trong việc thiết kế đồ họa. Sử dụng các ứng dụng Adobe như Photoshop, Lightroom, Illustrator, Premiere và After Effect.</p>
+                <a href="#" class="btn">Xem thêm</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-camera' ></i>
+                <h3>Photographer</h3>
+                <p>Sở hữu combo máy ảnh Cannon 6D và Lens 50 1.8 STM. Liên tục nhận các job liên quan đến chụp ảnh cá nhân như: Chụp chân dung, chụp cá nhân tốt nghiệp....</p>
+                <a href="#" class="btn">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Dự án <span>cá nhân</span></h2>
+
+<!-- Ảnh giới thiệu dự án (6 ảnh)-->
+        <div class="portfolio-container" id="hoso">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Có kinh ngiệm trong việc lập trình web Fontend như HTML, CSS.</p>
+                    <a href="https://phnmedia.id.vn/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mobile App</h4>
+                    <p>Cuộc thi Ý tưởng khởi nghiệp 2023, Ứng dụng mobile cảnh báo sạt, lở đất đá.</p>
+                    <a href="https://drive.google.com/file/d/1XgL14lqQAmwzYTfNVOe4Ci1aUpWKkGs_" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Dịch vụ</h4>
+                    <p>Chuyên cung cấp các dịch vụ liên quan đến hầu hết các mạng xã hội.</p>
+                    <a href="https://phnmedia.id.vn/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Video Tổng kết</h4>
+                    <p>Video Tổng kết công tác Đoàn - Hội năm 2023 của Trường Đại học Mỏ - Địa chất.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Breaking HUMG</h4>
+                    <p>Camera Operator - Quay phim, Livestream chương trình Chào Tân sinh viên năm 2022. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Media Awards</h4>
+                    <p>Kĩ thuật viên ấn tượng nhất năm Media Awards 2022.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- Section Liên hệ -->
+    <section>
+        <section class="contact" id="lienhe">
+            <h2 class="heading">Liên hệ <span>tôi</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Họ và tên">
+                    <input type="email" placeholder="Địa chỉ email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Số điện thoại">
+                    <input type="text" placeholder="Chủ đề email">
+                </div>
+
+                <!--Ô nhập nội dung-->
+                <textarea name="" id="" cols="30" rows="10" placeholder="Nội dung"></textarea> 
+                <input type="submit" value="Gửi" class="btn">
+            </form>
+
+        </section>
+    </section>
+
+
+<!-- Section Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by EpChannel</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+</body>
