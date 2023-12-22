@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+<!-- Class Đăng nhập -->
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Đăng Nhập</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Tên đăng nhập</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Mật khẩu</label>
+                </div>
+
+                <div class="remember">
+                    <label><input type="checkbox" name="" id=""> Ghi nhớ tài khoản</label>
+                </div>
+                <!-- <a href="#" class="btn">Đăng nhập</a> -->
+                <button type="submit" class="btn">Đăng nhập</button>
+                <div class="signUp-link">
+                    <p>Bạn chưa có tài khoản? <a href="#" class="signUpBtn-link">Đăng ký</a></p>
+                </div>
+
+            </form>
+        </div>
+
+<!-- Class Đăng ký -->
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Đăng Ký</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Tên tài khoản</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Mật khẩu</label>
+                </div>
+
+                <div class="remember">
+                    <label><input type="checkbox" name="" id=""> Tôi đồng ý với các điều khoản.</label>
+                </div>
+                <!-- <a href="#" class="btn">Đăng nhập</a> -->
+                <button type="submit" class="btn">Đăng ký</button>
+                <div class="signUp-link">
+                    <p>Bạn đã có tài khoản? <a href="#" class="signInBtn-link">Đăng nhập</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>

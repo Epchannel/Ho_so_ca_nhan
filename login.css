@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: none;
+    outline: none; */
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Khai báo mã màu toàn cục */
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.btn { /*Download CV */
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+/* Css khung form */
+.wrapper {
+    position: relative;
+    width: 40rem;
+    height: 50rem;
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    padding: 4rem;
+    box-shadow: 0 0 5rem var(--main-color);
+    /* overflow: hidden; */
+}
+
+/* Css trong form */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 1s ease-in-out;
+}
+
+/* Js login */
+.wrapper.active .form-wrapper.sign-in {
+    transform: translateY(-45rem);
+}
+
+
+.wrapper .form-wrapper.sign-up {
+    position: absolute;
+    top: 45rem;
+    left: 0;
+}
+
+/* Css tiêu đề Đăng nhập */
+.form-wrapper h2 {
+    font-size: 3rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+/* Css tên đăng nhập và mật khẩu */
+.input-group {
+    position: relative;
+    margin: 3rem 0;
+    border-bottom: .2rem solid var(--text-color);
+}
+
+/* Css TEXT tên đăng nhập và mật khẩu */
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: .5rem;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    pointer-events: none;
+    transition: .5s ease;
+}
+
+/* Css ô nhập tên đăng nhập và mật khẩu */
+.input-group input {
+    width: 32rem;  
+    height: 4rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    padding: 0 .5px;
+    background: transparent; /* Nền trong suốt */
+    border: none;
+    outline: none;
+}
+
+/* Khi người dùng tương tác và nhập dữ liệu hợp lệ sẽ lên trên 0.5rem */
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: -.5rem;
+}
+
+/* Css class ghi nhớ tài khoản */
+.remember {
+    margin: -.5rem 0 1.5rem .5rem;
+}
+
+/* Css text  ghi nhớ tài khoản */
+.remember label {
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
+/* Css ô checkbox */
+.remember label input {
+    align-content: var(--main-color);
+    
+}
+
+/* Css class signup link */
+.signUp-link {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
+/* Css text chưa có tài khoản */
+.signUp-link p {
+    color: var(--text-color);
+}
+
+/* Css text Đăng ký */
+.signUp-link p a {
+    color: var(--main-color);
+    font-weight: 50rem;
+}
+
+/* Css text Đăng ký khi hover */
+.signUp-link p a:hover {
+    text-decoration: underline;
+}

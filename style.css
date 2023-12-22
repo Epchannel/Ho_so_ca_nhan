@@ -385,3 +385,20 @@ span { /*Thẻ span Nghề nghiệp */
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+
+
+/* Css form đăng nhập */
+.login {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form label,
+.login-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
