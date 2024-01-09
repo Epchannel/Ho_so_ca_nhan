@@ -1,0 +1,4 @@
+Báo cáo này sẽ phân tích các công việc phát triển trang web cá nhân tích hợp chatbot tương tác. Em bắt đầu bằng cách làm rõ vai trò và tầm quan trọng của trang web cá nhân và chatbot trong bối cảnh số hiện nay. Tiếp theo, em sẽ phân tích các thách thức và cơ hội khi tích hợp chatbot vào trang web, bao gồm cả việc thiết kế giao diện và trải nghiệm người dùng.
+Phần chính của báo cáo sẽ tập trung vào phương pháp và kỹ thuật phát triển chatbot, từ lựa chọn công nghệ, xây dựng cơ sở dữ liệu và hệ thống học máy, đến cách thức tích hợp mượt mà vào trang web. Chúng ta cũng sẽ khám phá những kịch bản tương tác thông minh mà chatbot có thể thực hiện, từ trả lời câu hỏi đơn giản đến cung cấp tư vấn và hỗ trợ cá nhân hóa.
+Đặc biệt em xin trân thành cảm ơn cô giáo Ths. Ngô Thị Phương Thảo đã tận tình giúp đỡ em trong quá trình làm đề tài này.
+Trang demo: https://epchannel.github.io/Ho_so_ca_nhan
