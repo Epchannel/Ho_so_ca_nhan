@@ -402,3 +402,21 @@ span { /*Thẻ span Nghề nghiệp */
     width: 100%;
     margin-bottom: 10px;
 }
+
+/* Css chatbot */
+#chatbot-container {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    transform: scale(0.8); /* Giảm kích thước xuống 90% */
+}
+
+#chatbot-container iframe {
+    border: none;
+    width: 450px; /* Đặt chiều rộng cụ thể */
+    height: 530px; /* Đặt chiều cao cụ thể */
+    border-radius: 10px; /* Đường viền bo tròn */
+    transform: scale(0.9); /* Thu nhỏ view bên trong iFrame nếu cần */
+    overflow: hidden; /* Ẩn các phần tử nằm ngoài khung */
+}

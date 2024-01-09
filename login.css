@@ -70,7 +70,18 @@ section {
     border-radius: 2rem;
     padding: 4rem;
     box-shadow: 0 0 5rem var(--main-color);
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+/* Css đổi màu khi hover */
+.wrapper:hover {
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 /* Css trong form */
@@ -93,6 +104,10 @@ section {
     position: absolute;
     top: 45rem;
     left: 0;
+}
+
+.wrapper.active .form-wrapper.sign-up {
+    transform: translateY(-45rem);
 }
 
 /* Css tiêu đề Đăng nhập */
